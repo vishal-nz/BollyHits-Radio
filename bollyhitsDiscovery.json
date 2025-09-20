@@ -1,12 +1,461 @@
-[
-  {
-    "name": "BollyHits Radio",
-    "station_url": "https://bollyhitsradio.com",
-    "api_url": "https://az13.yesstreaming.net/api/nowplaying/136",
-    "logo": "https://bollyhitsradio.com/logo.png",
-    "genres": ["Bollywood", "Hits", "Indian", "Music"],
-    "country": "IN",
-    "city": "Online",
-    "description": "BollyHits Radio - The best Bollywood hits streaming 24/7."
-  }
-]
+{
+  "lastUpdated": "Feb 2025",
+  "featuredStations": {
+    "lastUpdated": "Feb 2025",
+    "title": "Featured Stations",
+    "description": "Stations hand-picked by listeners for listeners",
+    "stations": [
+      {
+        "friendlyName": "The Bagel",
+        "shortCode": "bagel",
+        "imageMediaUrl": "https://radio.owencramer.dev/api/station/bagel/art/-1",
+        "plsUrl": "https://radio.owencramer.dev/public/bagel/playlist.pls",
+        "publicPlayerUrl": "https://radio.owencramer.dev/public/bagel",
+        "preferredMount": "https://radio.owencramer.dev/listen/bagel/mp3",
+        "description": "The Everything Bagel",
+        "supportsHls": true,
+        "hlsUrl": "https://radio.owencramer.dev/hls/bagel/live.m3u8"
+      },
+      {
+        "friendlyName": "The AUX",
+        "shortCode": "the_aux",
+        "imageMediaUrl": "https://radio.luisvervaet.dev/api/station/the_aux/art/-1",
+        "plsUrl": "https://radio.luisvervaet.dev/public/the_aux/playlist.pls",
+        "publicPlayerUrl": "https://radio.luisvervaet.dev/public/the_aux",
+        "preferredMount": "https://radio.luisvervaet.dev/listen/the_aux/mp3-320",
+        "description": "",
+        "supportsHls": true,
+        "hlsUrl": "https://radio.luisvervaet.dev/hls/the_aux/live.m3u8"
+      },
+      {
+        "friendlyName": "OPS Shop Radio",
+        "shortCode": "ops_radio",
+        "imageMediaUrl": "https://radio.mtu.lol/api/station/ops_radio/art/-1",
+        "plsUrl": "https://radio.mtu.lol/public/ops_radio/playlist.pls",
+        "publicPlayerUrl": "https://radio.mtu.lol/public/ops_radio",
+        "preferredMount": "https://radio.mtu.lol/listen/ops_radio/mp3-320",
+        "description": "",
+        "supportsHls": true,
+        "hlsUrl": "https://radio.mtu.lol/hls/ops_radio/live.m3u8"
+      },
+      {
+        "friendlyName": "Miku Radio",
+        "shortCode": "miku",
+        "imageMediaUrl": "https://miku.fm/api/station/miku/art/-1",
+        "plsUrl": "https://miku.fm/public/miku/playlist.pls",
+        "publicPlayerUrl": "https://miku.fm/public/miku",
+        "preferredMount": "https://miku.fm/listen/miku/mp3-320",
+        "description": "24/7 Miku",
+        "supportsHls": false,
+        "hlsUrl": null
+      }
+    ]
+  },
+  "discoveryStations": [
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Genre Jumping",
+      "description": "A little bit of everything for everyone",
+      "stations": [
+        {
+          "friendlyName": "The AUX",
+          "shortCode": "the_aux",
+          "imageMediaUrl": "https://radio.luisvervaet.dev/api/station/the_aux/art/-1",
+          "plsUrl": "https://radio.luisvervaet.dev/public/the_aux/playlist.pls",
+          "publicPlayerUrl": "https://radio.luisvervaet.dev/public/the_aux",
+          "preferredMount": "https://radio.luisvervaet.dev/listen/the_aux/mp3-320",
+          "description": "",
+          "supportsHls": true,
+          "hlsUrl": "https://radio.luisvervaet.dev/hls/the_aux/live.m3u8"
+        },
+        {
+          "friendlyName": "The Bagel",
+          "shortCode": "bagel",
+          "imageMediaUrl": "https://radio.owencramer.dev/api/station/bagel/art/-1",
+          "plsUrl": "https://radio.owencramer.dev/public/bagel/playlist.pls",
+          "publicPlayerUrl": "https://radio.owencramer.dev/public/bagel",
+          "preferredMount": "https://radio.owencramer.dev/listen/bagel/mp3",
+          "description": "The Everything Bagel",
+          "supportsHls": true,
+          "hlsUrl": "https://radio.owencramer.dev/hls/bagel/live.m3u8"
+        },
+        {
+          "friendlyName": "OPS Shop Radio",
+          "shortCode": "ops_radio",
+          "imageMediaUrl": "https://radio.mtu.lol/api/station/ops_radio/art/-1",
+          "plsUrl": "https://radio.mtu.lol/public/ops_radio/playlist.pls",
+          "publicPlayerUrl": "https://radio.mtu.lol/public/ops_radio",
+          "preferredMount": "https://radio.mtu.lol/listen/ops_radio/mp3-320",
+          "description": "",
+          "supportsHls": true,
+          "hlsUrl": "https://radio.mtu.lol/hls/ops_radio/live.m3u8"
+        },
+        {
+          "friendlyName": "Reboot Radio",
+          "shortCode": "reboot_radio",
+          "imageMediaUrl": "https://cast1.shoutcasting.co.uk/api/station/reboot_radio/art/-1",
+          "plsUrl": "https://cast1.shoutcasting.co.uk/public/reboot_radio/playlist.pls",
+          "publicPlayerUrl": "https://cast1.shoutcasting.co.uk/public/reboot_radio",
+          "preferredMount": "https://cast1.shoutcasting.co.uk/listen/kingz_radio/radio.mp3",
+          "description": "Your Reboot, Your Radio",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Background Beats",
+      "description": "Background sounds for any task",
+      "stations": [
+        {
+          "friendlyName": "ISEKOI Radio",
+          "shortCode": "isekoi",
+          "imageMediaUrl": "https://public.isekoi-radio.com/api/station/isekoi/art/-1",
+          "plsUrl": "https://public.isekoi-radio.com/public/isekoi/playlist.pls",
+          "publicPlayerUrl": "https://public.isekoi-radio.com/public/isekoi",
+          "preferredMount": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
+          "description": "Your gateway to cosmic frequencies. ISEKOI Radio monitors the deep space for unique signals, broadcasting these celestial discoveries 24/7.",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "ISEKOI Radio | Non-Stop Ambient",
+          "shortCode": "ambient",
+          "imageMediaUrl": "https://public.isekoi-radio.com/api/station/ambient/art/-1",
+          "plsUrl": "https://public.isekoi-radio.com/public/ambient/playlist.pls",
+          "publicPlayerUrl": "https://public.isekoi-radio.com/public/ambient",
+          "preferredMount": "https://public.isekoi-radio.com/listen/ambient/ambientradio.mp3",
+          "description": "ISEKOI Radio presents Non-Stop Ambient: Subtly modulated background radiation detected by our satellite orbiting 47-Ursae-Majoris-b. This cold gas giant provides a continuous stream of deep cosmic ambient",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "ISEKOI Radio | Chill Zone",
+          "shortCode": "chill",
+          "imageMediaUrl": "https://public.isekoi-radio.com/api/station/chill/art/-1",
+          "plsUrl": "https://public.isekoi-radio.com/public/chill/playlist.pls",
+          "publicPlayerUrl": "https://public.isekoi-radio.com/public/chill",
+          "preferredMount": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+          "description": "ISEKOI Radio presents Chill Zone: Relaxing signals captured by our outpost on Tau Ceti-e. This super-Earth transmits smooth, energizing frequencies perfectly calibrated for crew recreation and downtime.",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "qUAntUm RaDio!",
+          "shortCode": "subspace",
+          "imageMediaUrl": "https://radio.erb.pw/api/station/subspace/art/-1",
+          "plsUrl": "https://radio.erb.pw/public/subspace/playlist.pls",
+          "publicPlayerUrl": "https://radio.erb.pw/public/subspace",
+          "preferredMount": "https://radio.erb.pw/listen/subspace/radio-320.mp3",
+          "description": "More bang than a supernova",
+          "supportsHls": true,
+          "hlsUrl": "https://radio.erb.pw/hls/subspace/live.m3u8"
+        },
+        {
+          "friendlyName": "freeCodeCamp.org Code Radio",
+          "shortCode": "coderadio",
+          "imageMediaUrl": "https://coderadio-admin-v2.freecodecamp.org/api/station/coderadio/art/-1",
+          "plsUrl": "https://coderadio-admin-v2.freecodecamp.org/public/coderadio/playlist.pls",
+          "publicPlayerUrl": "https://coderadio-admin-v2.freecodecamp.org/public/coderadio",
+          "preferredMount": "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/radio.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "I'm Thinking Miku",
+      "description": "She's in your Wi-Fi",
+      "stations": [
+        {
+          "friendlyName": "Miku Radio",
+          "shortCode": "miku",
+          "imageMediaUrl": "https://miku.fm/api/station/miku/art/-1",
+          "plsUrl": "https://miku.fm/public/miku/playlist.pls",
+          "publicPlayerUrl": "https://miku.fm/public/miku",
+          "preferredMount": "https://miku.fm/listen/miku/mp3-320",
+          "description": "24/7 Miku",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "Vocola-Radio",
+          "shortCode": "vocaloid",
+          "imageMediaUrl": "https://radio.owencramer.dev/api/station/vocaloid/art/-1",
+          "plsUrl": "https://radio.owencramer.dev/public/vocaloid/playlist.pls",
+          "publicPlayerUrl": "https://radio.owencramer.dev/public/vocaloid",
+          "preferredMount": "https://radio.owencramer.dev/listen/vocaloid/mp3",
+          "description": "It's Vocaloid... Always",
+          "supportsHls": true,
+          "hlsUrl": "https://radio.owencramer.dev/hls/vocaloid/live.m3u8"
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Tokyo Beats",
+      "description": "Sounds from the land of the rising sun",
+      "stations": [
+        {
+          "friendlyName": "Japanisu - J-Music & Beyond | SV CHILE",
+          "shortCode": "japanisu",
+          "imageMediaUrl": "https://listen.japanisu.com/api/station/japanisu/art/-1",
+          "plsUrl": "https://listen.japanisu.com/public/japanisu/playlist.pls",
+          "publicPlayerUrl": "https://listen.japanisu.com/public/japanisu",
+          "preferredMount": "https://listen.japanisu.com/listen/japanisu/uradio.mp3",
+          "description": "",
+          "supportsHls": true,
+          "hlsUrl": "https://listen.japanisu.com/hls/japanisu/live.m3u8"
+        },
+        {
+          "friendlyName": "JPop Radio",
+          "shortCode": "jpop_test",
+          "imageMediaUrl": "https://radio.owencramer.dev/api/station/jpop_test/art/-1",
+          "plsUrl": "https://radio.owencramer.dev/public/jpop_test/playlist.pls",
+          "publicPlayerUrl": "https://radio.owencramer.dev/public/jpop_test",
+          "preferredMount": "https://radio.owencramer.dev/listen/jpop_test/mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "Kodama Station",
+          "shortCode": "kodama_station",
+          "imageMediaUrl": "https://cast.kodamastation.com/api/station/kodama_station/art/-1",
+          "plsUrl": "https://cast.kodamastation.com/public/kodama_station/playlist.pls",
+          "publicPlayerUrl": "https://cast.kodamastation.com/public/kodama_station",
+          "preferredMount": "https://cast.kodamastation.com:8000/Rd320.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "Radio Anime Nexus",
+          "shortCode": "animenexus",
+          "imageMediaUrl": "https://radio.animenexus.net/api/station/animenexus/art/-1",
+          "plsUrl": "https://radio.animenexus.net/public/animenexus/playlist.pls",
+          "publicPlayerUrl": "https://radio.animenexus.net/public/animenexus",
+          "preferredMount": "https://radio.animenexus.net/listen/animenexus/animenexus-mp3",
+          "description": "La #1 de toda LatinoamÃ©rica... Y NADA MAS!!!",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Sounds From Down Unda",
+      "description": "Stations from AU and NZ",
+      "stations": [
+        {
+          "friendlyName": "2GHR Greater Hume Radio",
+          "shortCode": "2ghr",
+          "imageMediaUrl": "https://2ghr.org.au/images/albumart/2ghr-stationart.jpg",
+          "plsUrl": "https://az1.syd2.hostyourservices.au/public/2ghr/playlist.pls",
+          "publicPlayerUrl": "https://az1.syd2.hostyourservices.au/public/2ghr",
+          "preferredMount": "https://az1.syd2.hostyourservices.au/listen/2ghr/2ghr",
+          "description": "Community radio in the Greater Hume",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "Magic 87.6",
+          "shortCode": "magic876",
+          "imageMediaUrl": "https://az1.syd2.hostyourservices.au/api/station/magic876/art/-1",
+          "plsUrl": "https://az1.syd2.hostyourservices.au/public/magic876/playlist.pls",
+          "publicPlayerUrl": "https://az1.syd2.hostyourservices.au/public/magic876",
+          "preferredMount": "https://az1.syd2.hostyourservices.au/listen/magic876/magic876",
+          "description": "Playing the best songs of all time to the Mid-Western Region of NSW.",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Pixel Symphony",
+      "description": "Sounds from the best in-game music",
+      "stations": [
+        {
+          "friendlyName": "Radio Rivendell",
+          "shortCode": "radio_rivendell",
+          "imageMediaUrl": "https://play.radiorivendell.com/api/station/radio_rivendell/art/-1",
+          "plsUrl": "https://play.radiorivendell.com/public/radio_rivendell/playlist.pls",
+          "publicPlayerUrl": "https://play.radiorivendell.com/public/radio_rivendell",
+          "preferredMount": "https://play.radiorivendell.com/radio/8000/radio.mp3",
+          "description": "Radio Rivendell is the one and only fantasy radio station in the world playing fantasy music 24-7! We like to promote young and unknown artists and bands to the broader audience.",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "NamKoCom Radio",
+          "shortCode": "namkocom_radio",
+          "imageMediaUrl": "https://www.spritelayerradio.com/api/station/namkocom_radio/art/-1",
+          "plsUrl": "https://www.spritelayerradio.com/public/namkocom_radio/playlist.pls",
+          "publicPlayerUrl": "https://www.spritelayerradio.com/public/namkocom_radio",
+          "preferredMount": "https://www.spritelayerradio.com:8020/namkocom.mp3",
+          "description": "Video game songs from games published by Capcom, Namco and Konami.",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "SpriteLayer Video Game Radio",
+          "shortCode": "spritelayer_video_game_radio",
+          "imageMediaUrl": "https://www.spritelayerradio.com/api/station/spritelayer_video_game_radio/art/-1",
+          "plsUrl": "https://www.spritelayerradio.com/public/spritelayer_video_game_radio/playlist.pls",
+          "publicPlayerUrl": "https://www.spritelayerradio.com/public/spritelayer_video_game_radio",
+          "preferredMount": "https://www.spritelayerradio.com:8010/all",
+          "description": "Video Game music from every generation",
+          "supportsHls": true,
+          "hlsUrl": "https://www.spritelayerradio.com/hls/spritelayer_video_game_radio/live.m3u8"
+        },
+        {
+          "friendlyName": "SpriteLayer Classic Video Game Radio",
+          "shortCode": "classic",
+          "imageMediaUrl": "https://www.spritelayerradio.com/api/station/classic/art/-1",
+          "plsUrl": "https://www.spritelayerradio.com/public/classic/playlist.pls",
+          "publicPlayerUrl": "https://www.spritelayerradio.com/public/classic",
+          "preferredMount": "https://www.spritelayerradio.com:8000/classic.mp3",
+          "description": "Video game music from the 80s to 2000.",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Get Up and Move!",
+      "description": "Dance, EDM, and House",
+      "stations": [
+        {
+          "friendlyName": "RADIO A",
+          "shortCode": "radio_a",
+          "imageMediaUrl": "https://audio.playradio.pro/api/station/radio_a/art/-1",
+          "plsUrl": "https://audio.playradio.pro/public/radio_a/playlist.pls",
+          "publicPlayerUrl": "https://audio.playradio.pro/public/radio_a",
+          "preferredMount": "https://audio.playradio.pro/listen/radio_a/radioa320",
+          "description": "HOUSE POP ROCK 24/7 !",
+          "supportsHls": true,
+          "hlsUrl": "https://audio.playradio.pro/hls/radio_a/live.m3u8"
+        },
+        {
+          "friendlyName": "Road FM",
+          "shortCode": "road_fm",
+          "imageMediaUrl": "https://audio.playradio.pro/api/station/road_fm/art/-1",
+          "plsUrl": "https://audio.playradio.pro/public/road_fm/playlist.pls",
+          "publicPlayerUrl": "https://audio.playradio.pro/public/road_fm",
+          "preferredMount": "https://audio.playradio.pro/listen/road_fm/hifi",
+          "description": "Boost Your Road!",
+          "supportsHls": true,
+          "hlsUrl": "https://audio.playradio.pro/hls/road_fm/live.m3u8"
+        },
+        {
+          "friendlyName": "MINIMALRADIO.DE",
+          "shortCode": "320.mp3",
+          "imageMediaUrl": "https://azurafallback.de/api/station/320.mp3/art/-1",
+          "plsUrl": "https://azurafallback.de/public/320.mp3/playlist.pls",
+          "publicPlayerUrl": "https://azurafallback.de/public/320.mp3",
+          "preferredMount": "https://azurafallback.de:8010/320.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "Tide Dance",
+          "shortCode": "tidedance",
+          "imageMediaUrl": "https://cast1.shoutcasting.co.uk/api/station/tidedance/art/-1",
+          "plsUrl": "https://cast1.shoutcasting.co.uk/public/tidedance/playlist.pls",
+          "publicPlayerUrl": "https://cast1.shoutcasting.co.uk/public/tidedance",
+          "preferredMount": "https://cast1.shoutcasting.co.uk/listen/kingz_radio/radio.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Low Profile",
+      "description": "Soft pop, jazz, and more",
+      "stations": [
+        {
+          "friendlyName": "RadIQ Happy",
+          "shortCode": "radiq",
+          "imageMediaUrl": "https://live.radiq.gr/api/station/radiq/art/-1",
+          "plsUrl": "https://live.radiq.gr/public/radiq/playlist.pls",
+          "publicPlayerUrl": "https://live.radiq.gr/public/radiq",
+          "preferredMount": "https://live.radiq.gr/listen/black/radio.mp3",
+          "description": "Find your music IQ",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "KLCBS Streaming",
+          "shortCode": "klcbs",
+          "imageMediaUrl": "https://streaming.klcbsofficial.com/api/station/klcbs/art/-1",
+          "plsUrl": "https://streaming.klcbsofficial.com/public/klcbs/playlist.pls",
+          "publicPlayerUrl": "https://streaming.klcbsofficial.com/public/klcbs",
+          "preferredMount": "https://streaming.klcbsofficial.com/listen/klcbs/klcbs-hd",
+          "description": "Bandung - Indonesia,  Jazz Wave",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "freeCodeCamp.org Code Radio",
+          "shortCode": "coderadio",
+          "imageMediaUrl": "https://coderadio-admin-v2.freecodecamp.org/api/station/coderadio/art/-1",
+          "plsUrl": "https://coderadio-admin-v2.freecodecamp.org/public/coderadio/playlist.pls",
+          "publicPlayerUrl": "https://coderadio-admin-v2.freecodecamp.org/public/coderadio",
+          "preferredMount": "https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/radio.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        }
+      ]
+    },
+    {
+      "lastUpdated": "Feb 2025",
+      "title": "Truckin",
+      "description": "Sounds for truckin",
+      "stations": [
+        {
+          "friendlyName": "TruckStopRadio",
+          "shortCode": "truckstopradio",
+          "imageMediaUrl": "https://oreo.truckstopradio.co.uk/api/station/truckstopradio/art/-1",
+          "plsUrl": "https://oreo.truckstopradio.co.uk/public/truckstopradio/playlist.pls",
+          "publicPlayerUrl": "https://oreo.truckstopradio.co.uk/public/truckstopradio",
+          "preferredMount": "https://oreo.truckstopradio.co.uk/listen/truckstopradio/radio.mp3",
+          "description": "Where The Music Comes Alive!",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "TSR Rock",
+          "shortCode": "tsr_rock",
+          "imageMediaUrl": "https://oreo.truckstopradio.co.uk/api/station/tsr_rock/art/-1",
+          "plsUrl": "https://oreo.truckstopradio.co.uk/public/tsr_rock/playlist.pls",
+          "publicPlayerUrl": "https://oreo.truckstopradio.co.uk/public/tsr_rock",
+          "preferredMount": "https://oreo.truckstopradio.co.uk/listen/tsr_rock/radio.mp3",
+          "description": "",
+          "supportsHls": false,
+          "hlsUrl": null
+        },
+        {
+          "friendlyName": "SpriteLayer Rock",
+          "shortCode": "spritelayer_rock",
+          "imageMediaUrl": "https://www.spritelayerradio.com/api/station/spritelayer_rock/art/-1",
+          "plsUrl": "https://www.spritelayerradio.com/public/spritelayer_rock/playlist.pls",
+          "publicPlayerUrl": "https://www.spritelayerradio.com/public/spritelayer_rock",
+          "preferredMount": "https://www.spritelayerradio.com:8030/rock.mp3",
+          "description": "Rock and alternative from the last few decades",
+          "supportsHls": true,
+          "hlsUrl": "https://www.spritelayerradio.com/hls/spritelayer_rock/live.m3u8"
+        }
+      ]
+    }
+  ],
+  "formLink": "Link Coming Soon"
+}
