@@ -1,0 +1,12 @@
+[
+  {
+    "name": "BollyHits Radio",
+    "station_url": "https://bollyhitsradio.com",
+    "api_url": "https://az13.yesstreaming.net/api/nowplaying/136",
+    "logo": "https://bollyhitsradio.com/logo.png",
+    "genres": ["Bollywood", "Hits", "Indian", "Music"],
+    "country": "IN",
+    "city": "Online",
+    "description": "BollyHits Radio - The best Bollywood hits streaming 24/7."
+  }
+]
