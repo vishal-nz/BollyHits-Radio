@@ -111,7 +111,7 @@
         {
           "friendlyName": "BOLLYHITS RADIO",
           "shortCode": "bollyhits_radio",
-          "imageMediaUrl": "https://az13.yesstreaming.net/static/uploads/bollyhits_radio/art/-1",
+          "imageMediaUrl": "az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
           "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
           "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
           "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps",
