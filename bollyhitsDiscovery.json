@@ -110,20 +110,20 @@
       "stations": [
          {
           "friendlyName": "BOLLYHITS RADIO",
-          "shortCode": "isekoi",
+          "shortCode": "bollyhitsradio",
           "imageMediaUrl": "https://public.isekoi-radio.com/api/station/isekoi/art/-1",
           "plsUrl": "https://public.isekoi-radio.com/public/isekoi/playlist.pls",
-          "publicPlayerUrl": "https://public.isekoi-radio.com/public/isekoi",
-          "preferredMount": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
-          "description": "Your gateway to cosmic frequencies. ISEKOI Radio monitors the deep space for unique signals, broadcasting these celestial discoveries 24/7.",
+          "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
+          "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps",
+          "description": "Where melody never dies....",
           "supportsHls": false,
           "hlsUrl": null
         },
           {
           "friendlyName": "ISEKOI Radio",
           "shortCode": "isekoi",
-          "imageMediaUrl": "https://public.isekoi-radio.com/api/station/isekoi/art/-1",
-          "plsUrl": "https://public.isekoi-radio.com/public/isekoi/playlist.pls",
+          "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
+          "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
           "publicPlayerUrl": "https://public.isekoi-radio.com/public/isekoi",
           "preferredMount": "https://public.isekoi-radio.com/listen/isekoi/radio.mp3",
           "description": "Your gateway to cosmic frequencies. ISEKOI Radio monitors the deep space for unique signals, broadcasting these celestial discoveries 24/7.",
