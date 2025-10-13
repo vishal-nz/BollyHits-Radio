@@ -109,15 +109,26 @@
       "description": "Background sounds for any task",
       "stations": [
         {
-          "friendlyName": "BOLLYHITS RADIO",
+          "friendlyName": "BOLLYHITS RADIO 192kbps",
           "shortCode": "bollyhits_radio",
-          "imageMediaUrl": "az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
+          "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
           "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
           "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
           "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps",
           "description": "Where melody never dies...",
           "supportsHls": false,
-          "hlsUrl": null
+          "hlsUrl": https://bollyhitsradio.com
+        },
+          {
+          "friendlyName": "BOLLYHITS RADIO 128kbps",
+          "shortCode": "bollyhits_radio",
+          "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
+          "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
+          "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
+          "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio128kbps",
+          "description": "Where melody never dies...",
+          "supportsHls": false,
+          "hlsUrl": https://bollyhitsradio.com
         },
         {
           "friendlyName": "ISEKOI Radio",
