@@ -6,15 +6,15 @@
     "description": "Stations hand-picked by listeners for listeners",
     "stations": [
       {
-        "friendlyName": "The Bagel",
-        "shortCode": "bagel",
-        "imageMediaUrl": "https://radio.owencramer.dev/api/station/bagel/art/-1",
-        "plsUrl": "https://radio.owencramer.dev/public/bagel/playlist.pls",
-        "publicPlayerUrl": "https://radio.owencramer.dev/public/bagel",
-        "preferredMount": "https://radio.owencramer.dev/listen/bagel/mp3",
-        "description": "The Everything Bagel",
-        "supportsHls": true,
-        "hlsUrl": "https://radio.owencramer.dev/hls/bagel/live.m3u8"
+        "friendlyName": "BollyHits Radio",
+        "shortCode": "bollyhits_radio",
+        "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
+        "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
+        "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
+        "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps",
+        "description": "Where melody never dies...",
+        "supportsHls": false,
+        "hlsUrl":
       },
       {
         "friendlyName": "The AUX",
