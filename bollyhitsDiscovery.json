@@ -109,28 +109,6 @@
       "description": "Background sounds for any task",
       "stations": [
         {
-          "friendlyName": "BOLLYHITS RADIO 192kbps",
-          "shortCode": "bollyhits_radio",
-          "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
-          "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
-          "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
-          "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio192kbps",
-          "description": "Where melody never dies...",
-          "supportsHls": false,
-          "hlsUrl": https://bollyhitsradio.com
-        },
-          {
-          "friendlyName": "BOLLYHITS RADIO 128kbps",
-          "shortCode": "bollyhits_radio",
-          "imageMediaUrl": "https://az13.yesstreaming.net/api/station/bollyhits_radio/art/-1",
-          "plsUrl": "https://az13.yesstreaming.net/public/bollyhits_radio/playlist.pls",
-          "publicPlayerUrl": "https://az13.yesstreaming.net/public/bollyhits_radio",
-          "preferredMount": "https://az13.yesstreaming.net:8450/bollyhitsradio128kbps",
-          "description": "Where melody never dies...",
-          "supportsHls": false,
-          "hlsUrl": https://bollyhitsradio.com
-        },
-        {
           "friendlyName": "ISEKOI Radio",
           "shortCode": "isekoi",
           "imageMediaUrl": "https://public.isekoi-radio.com/api/station/isekoi/art/-1",
@@ -353,27 +331,27 @@
       "description": "Dance, EDM, and House",
       "stations": [
         {
-          "friendlyName": "RADIO A",
-          "shortCode": "radio_a",
-          "imageMediaUrl": "https://audio.playradio.pro/api/station/radio_a/art/-1",
-          "plsUrl": "https://audio.playradio.pro/public/radio_a/playlist.pls",
-          "publicPlayerUrl": "https://audio.playradio.pro/public/radio_a",
-          "preferredMount": "https://audio.playradio.pro/listen/radio_a/radioa320",
-          "description": "HOUSE POP ROCK 24/7 !",
-          "supportsHls": true,
-          "hlsUrl": "https://audio.playradio.pro/hls/radio_a/live.m3u8"
-        },
-        {
-          "friendlyName": "Road FM",
-          "shortCode": "road_fm",
-          "imageMediaUrl": "https://audio.playradio.pro/api/station/road_fm/art/-1",
-          "plsUrl": "https://audio.playradio.pro/public/road_fm/playlist.pls",
-          "publicPlayerUrl": "https://audio.playradio.pro/public/road_fm",
-          "preferredMount": "https://audio.playradio.pro/listen/road_fm/hifi",
-          "description": "Boost Your Road!",
-          "supportsHls": true,
-          "hlsUrl": "https://audio.playradio.pro/hls/road_fm/live.m3u8"
-        },
+            "friendlyName": "RADIO A",
+            "shortCode": "radio_a",
+            "imageMediaUrl": "https://audio.playradio.pro/api/station/radio_a/art/-1",
+            "plsUrl": "https://audio.playradio.pro/public/radio_a/playlist.pls",
+            "publicPlayerUrl": "https://audio.playradio.pro/public/radio_a",
+            "preferredMount": "https://audio.playradio.pro/listen/radio_a/radioa320",
+            "description": "HOUSE POP ROCK 24/7 !",
+            "supportsHls": true,
+            "hlsUrl": "https://audio.playradio.pro/hls/radio_a/live.m3u8"
+          },
+          {
+            "friendlyName": "Road FM",
+            "shortCode": "road_fm",
+            "imageMediaUrl": "https://audio.playradio.pro/api/station/road_fm/art/-1",
+            "plsUrl": "https://audio.playradio.pro/public/road_fm/playlist.pls",
+            "publicPlayerUrl": "https://audio.playradio.pro/public/road_fm",
+            "preferredMount": "https://audio.playradio.pro/listen/road_fm/hifi",
+            "description": "Boost Your Road!",
+            "supportsHls": true,
+            "hlsUrl": "https://audio.playradio.pro/hls/road_fm/live.m3u8"
+          },
         {
           "friendlyName": "MINIMALRADIO.DE",
           "shortCode": "320.mp3",
