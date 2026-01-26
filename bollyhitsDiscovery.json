@@ -58,7 +58,7 @@
       "description": "A little bit of everything for everyone",
       "stations": [
         {
-          "friendlyName": "The AUX",
+          "friendlyName": "BollyHits Radio",
           "shortCode": "the_aux",
           "imageMediaUrl": "https://radio.luisvervaet.dev/api/station/the_aux/art/-1",
           "plsUrl": "https://radio.luisvervaet.dev/public/the_aux/playlist.pls",
